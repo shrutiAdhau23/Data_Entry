@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Registration.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="ramesh">
+        <div class="reg-form">
+            <h2 class="heading">SIGN IN</h2>
+            <div class="create-account" align="center">
+                <form autocomplete="off">
+                    <input type="text" placeholder="USERNAME" class="fld" id="un"/>
+                    <input type="text" placeholder="PASSWORD" class="fld" id="pwd1"/>
+                    <input type="text" placeholder="CONFIRM PASSWORD" class="fld" id="pwd2"/>
+                    <input type="text" placeholder="CONTACT" class="fld" id="phone"/>
+                    <input type="email" placeholder="EMAIL" class="fld" id="eml"/>
+                    <input type="button" value="CREATE" class="btn" onclick="registration()"/>
+                    <input type="reset" value="CANCEL" class="btn"/>
+                    <br><br>
+                    <input type="button" value="LOGIN" class="btn1" onclick="lgn()" title="If already registered, please click here" id="login"/>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="RegScript.js"></script>
+</body>
+</html>

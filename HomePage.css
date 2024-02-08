@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.navigation-bar
+{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-image: linear-gradient(to right ,rgb(124, 124, 199),rgb(106, 106, 159) );
+}
+ .chara{
+    font-size: 40px;
+    color: rgb(7, 18, 52);
+ }
+
+ .navbar-brand{
+    font-weight: bolder;
+    color: white !important;
+ }
+
+ .ramesh{
+    font-weight: bolder;
+    color: black !important;
+ }
+
+ .a3{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 50px;
+    background-color: grey;
+ }
+
+img{
+   height: 300px;
+   width: 500px;
+   /* background-image: url("https://img.freepik.com/free-vector/watercolor-nature-background-with-leaves_52683-59449.jpg?w=2000"); */
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+ }
+
+.gifs{
+   position: absolute;
+   top: 20%;
+   left: 33%;
+}
+.gifs h1{
+   margin-bottom: 25px;
+   font-style: italic;
+   font-weight: bolder;
+}
