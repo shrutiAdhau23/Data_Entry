@@ -93,4 +93,5 @@ function deleteData(btn) {
     {
     document.getElementById("tablebody").deleteRow(rw.rowIndex-1);
 }
+
 }
